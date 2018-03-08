@@ -1,0 +1,21 @@
+{
+  "name": "confdapp",
+  "version": "1.0.0",
+  "description": "Test package",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "truffle": "^4.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Vinay Baanakar",
+  "license": "ISC",
+  "deploy":[
+    "conference"
+  ]
+}
